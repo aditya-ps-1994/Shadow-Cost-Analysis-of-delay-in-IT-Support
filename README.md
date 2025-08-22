@@ -38,11 +38,13 @@ The following visualizations were generated from the filtered English dataset:
    
 - This chart displays the total INR impact of ticket resolution delays across different support queues. It helps identify which teams are contributing the most to hidden business costs.
 
+   ![Chart Preview](charts/cost_by_queue.png)
   
 2. Pie Chart – Proportion of Shadow Costs by Priority
 
 - This pie chart reveals how much each ticket priority (Low, Medium, High) contributes to the total shadow cost. It helps stakeholders understand which issue types drive the most cost when delayed.
 
+   ![Chart Preview](charts/cost_%_by_priority.png)
 
 ## Files Included:
 | File Name | Description |
