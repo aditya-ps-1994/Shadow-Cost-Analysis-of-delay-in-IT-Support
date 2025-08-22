@@ -50,6 +50,7 @@ The following visualizations were generated from the filtered English dataset:
 | File Name | Description |
 |-----------|-------------|
 | `Ticket_dump_cleaned.xlsx` | Cleaned data with calculated columns and removed few blanks in-between |
+| `Shadow_Cost_Analysis_Adjusted_INR.xlsx` | Updated to reflect realistic durations and reduced cost multipliers in INR |
 | `shadow_cost_analysis.sql` | SQL queries for business metrics |
 | `shadow_cost_analysis.ipynb` | Jupyter notebook with visual insights |
 
