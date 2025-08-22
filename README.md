@@ -44,7 +44,7 @@ The following visualizations were generated from the filtered English dataset:
 
 - This pie chart reveals how much each ticket priority (Low, Medium, High) contributes to the total shadow cost. It helps stakeholders understand which issue types drive the most cost when delayed.
 
-   ![Chart Preview](charts/cost_%_by_priority.png)
+   ![Chart Preview](charts/cost_percentage_by_priority.png)
 
 ## Files Included:
 | File Name | Description |
