@@ -79,7 +79,7 @@ The following visualizations were generated from the filtered English dataset:
 Here’s what’s happening:
 
 - You likely have hundreds or thousands of tickets in an IT Service Desk.
-- Example even at moderate values like ₹200/hour × 10 hours × 500 tickets = ₹10,00,000
+- Example, the cost at moderate values like ₹200/hour × 10 hours × 500 tickets = ₹10,00,000
 - For urgent tickets, costs rise much faster:
    ₹1000/hour × 12 hours × 150 tickets = ₹18,00,000+
 - So you're not seeing the cost of a single ticket but the cumulative cost across all tickets in that priority or queue.
