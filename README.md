@@ -25,9 +25,11 @@ This project estimates the hidden business impact caused by delays in resolving 
 - **Python**: EDA, visualization with pandas and seaborn
 
 ## Files Included:
-- `Ticket_dump_cleaned.xlsx` — Cleaned data with calculated columns and removed few blanks in-between
-- `shadow_cost_analysis.sql` — SQL queries for business metrics
-- `shadow_cost_analysis.ipynb` — Jupyter notebook with visual insights
+| File Name | Description |
+|-----------|-------------|
+| `Ticket_dump_cleaned.xlsx` | Cleaned data with calculated columns and removed few blanks in-between |
+| `shadow_cost_analysis.sql` | SQL queries for business metrics |
+| `shadow_cost_analysis.ipynb` | Jupyter notebook with visual insights |
 
 ---
 
