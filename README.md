@@ -59,8 +59,30 @@ The following visualizations were generated from the filtered English dataset:
 - Technical Support is the top contributor to shadow cost, with losses estimated at ₹1.86 crore INR.
 - High-priority tickets account for the largest share of business impact, with delays leading to a cumulative estimated loss of ₹3.02 crore.
 - Product Support and IT Support queues together contribute over ₹1.7 crore in hidden costs.
-- Even medium-priority tickets incur significant downtime cost—over ₹2 crore, underscoring the need for better mid-level prioritization.
+- Even medium-priority tickets incur significant downtime cost - over ₹2 crore, underscoring the need for better mid-level prioritization.
 - Delays in Billing and Payments also cost the company over ₹52 lakhs, indicating potential cash flow implications.
+
+## Key Adjustments:
+
+1. Duration Ranges (Simulated realistic TTR in hours):
+   - Urgent: 4–8 hours
+   - High: 6–12 hours
+   - Medium: 8–16 hours
+   - Low: 10–24 hours
+
+2. Cost Multipliers (INR per hour):
+   - Urgent: ₹500/hr
+   - High: ₹300/hr
+   - Medium: ₹150/hr
+   - Low: ₹50/hr
+  
+Here’s what’s happening:
+
+- You likely have hundreds or thousands of tickets in an IT Service Desk.
+- Example even at moderate values like ₹200/hour × 10 hours × 500 tickets = ₹10,00,000
+- For urgent tickets, costs rise much faster:
+   ₹1000/hour × 12 hours × 150 tickets = ₹18,00,000+
+- So you're not seeing the cost of a single ticket but the cumulative cost across all tickets in that priority or queue.
 
 ## Outcome:
 
